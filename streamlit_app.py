@@ -9,15 +9,15 @@ df = pd.DataFrame(
     {
         "no": list(range(1, 10)),
         "name": [
-            "フロントエンド(React)",
-            "バックエンド(FastAPI)",
-            "バックエンド(NestJS)",
+            "React",
+            "FastAPI",
+            "NestJS",
             "AWS CLF",
             "Linux + Docker",
             "Terraform",
             "機械学習",
             "物体検知AI",
-            "AI Web(Streamlit)",
+            "Streamlit",
         ],
         "description": [
             "モダンJSとReactでTODOアプリ",
@@ -28,7 +28,7 @@ df = pd.DataFrame(
             "Cloud9でTerraform実装",
             "機械学習に必要な数学と単回帰分析",
             "Google Colabで物体検知AI導入",
-            "CNN画像分類Webアプリの実装、デプロイ",
+            "CNN画像分類Webアプリ",
         ],
         "background": [
             "HTML/CSS/JS基礎",
@@ -39,7 +39,7 @@ df = pd.DataFrame(
             "AWS基礎",
             "なし",
             "Googleアカウント",
-            "Google, GitHubアカウント",
+            "Google, GitHub",
         ],
         "stars": [4.7, 4.5, 4.2, 4.2, 4.5, 4.2, 4.4, 4.5, 4.4],
         "times": [7, 10, 5, 15, 5, 4, 4, 4, 3],
