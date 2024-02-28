@@ -5,20 +5,22 @@ st.title("勉強会用Udemy講座一覧")
 
 st.write("")
 
+names = [
+    "React",
+    "FastAPI",
+    "NestJS",
+    "AWS CLF",
+    "Linux + Docker",
+    "Terraform",
+    "機械学習",
+    "物体検知AI",
+    "Streamlit",
+]
+
 df = pd.DataFrame(
     {
         "no": list(range(1, 10)),
-        "name": [
-            "React",
-            "FastAPI",
-            "NestJS",
-            "AWS CLF",
-            "Linux + Docker",
-            "Terraform",
-            "機械学習",
-            "物体検知AI",
-            "Streamlit",
-        ],
+        "name": names,
         "description": [
             "モダンJSとReactでTODOアプリ",
             "会議室予約API",
