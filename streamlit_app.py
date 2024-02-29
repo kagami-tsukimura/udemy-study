@@ -17,21 +17,23 @@ names = [
     "Streamlit",
 ]
 
+descriptions = [
+    "モダンJSとReactでTODOアプリ",
+    "会議室予約API",
+    "CRUD中心の実装入門",
+    "CLF資格範囲のハンズオン",
+    "Linux基礎とDockerで開発環境構築",
+    "Cloud9でTerraform実装",
+    "機械学習に必要な数学と単回帰分析",
+    "Google Colabで物体検知AI導入",
+    "CNN画像分類Webアプリ",
+]
+
 df = pd.DataFrame(
     {
         "no": list(range(1, 10)),
         "name": names,
-        "description": [
-            "モダンJSとReactでTODOアプリ",
-            "会議室予約API",
-            "CRUD中心の実装入門",
-            "CLF資格範囲のハンズオン",
-            "Linux基礎とDockerで開発環境構築",
-            "Cloud9でTerraform実装",
-            "機械学習に必要な数学と単回帰分析",
-            "Google Colabで物体検知AI導入",
-            "CNN画像分類Webアプリ",
-        ],
+        "description": descriptions,
         "background": [
             "HTML/CSS/JS基礎",
             "Python基礎",
