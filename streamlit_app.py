@@ -31,7 +31,7 @@ descriptions = [
 
 df = pd.DataFrame(
     {
-        "no": list(range(1, 10)),
+        "no": list(range(1, len(names) + 1)),
         "name": names,
         "description": descriptions,
         "background": [
