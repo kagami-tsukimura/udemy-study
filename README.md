@@ -1,4 +1,4 @@
-# Study on Udemy!
+# Study on Udemy
 
 ## Demo
 
