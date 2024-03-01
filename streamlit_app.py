@@ -29,22 +29,24 @@ descriptions = [
     "CNN画像分類Webアプリ",
 ]
 
+backgrounds = [
+    "HTML/CSS/JS基礎",
+    "Python基礎",
+    "TypeScript基礎",
+    "ネットワーク基礎",
+    "CLI基礎",
+    "AWS基礎",
+    "なし",
+    "Googleアカウント",
+    "Google, GitHub",
+]
+
 df = pd.DataFrame(
     {
         "no": list(range(1, len(names) + 1)),
         "name": names,
         "description": descriptions,
-        "background": [
-            "HTML/CSS/JS基礎",
-            "Python基礎",
-            "TypeScript基礎",
-            "ネットワーク基礎",
-            "CLI基礎",
-            "AWS基礎",
-            "なし",
-            "Googleアカウント",
-            "Google, GitHub",
-        ],
+        "background": backgrounds,
         "stars": [4.7, 4.5, 4.2, 4.2, 4.5, 4.2, 4.4, 4.5, 4.4],
         "times": [7, 10, 5, 15, 5, 4, 4, 4, 3],
         "url": [
